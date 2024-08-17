@@ -9,4 +9,9 @@ def persegiPanjang(l,p):
     keliling = 2 * (l*p)
     print(f"Luas\t\t: {luas}")
     print(f"Keliling\t: {keliling}")
-persegi(5)
+
+def lingkaran(r):
+    luas = 3.14 * r * r
+    keliling = 2 * 3.14 * r
+    print(f"Luas\t\t: {luas}")
+    print(f"Keliling\t: {keliling}")
